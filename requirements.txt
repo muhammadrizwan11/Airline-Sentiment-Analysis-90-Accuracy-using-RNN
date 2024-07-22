@@ -5,5 +5,5 @@ matplotlib
 keras
 scikit-learn
 streamlit
-tensorflow
+tensorflow==2.4.1
 
