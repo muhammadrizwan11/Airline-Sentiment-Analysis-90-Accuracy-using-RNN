@@ -1,12 +1,12 @@
 import streamlit as st
-import tensorflow as tf
+# import tensorflow as tf
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 # Load the saved model
 model_path = 'my_model.h5'  # Update with your actual model path
-model = tf.keras.models.load_model(model_path)
+model = keras.models.load_model(model_path)
 
 # Initialize the tokenizer (assuming same parameters as during training)
 max_fatures = 4000
