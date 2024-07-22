@@ -1,9 +1,7 @@
-# Save this as app.py
-
 import streamlit as st
 import tensorflow as tf
-from tf.keras.preprocessing.text import Tokenizer
-from tf.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 # Load the saved model
