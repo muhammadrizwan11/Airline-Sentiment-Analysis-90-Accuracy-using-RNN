@@ -37,4 +37,3 @@ if st.button("Analyze"):
     else:
         st.write("Please enter some text.")
 
-!streamlit run app.py
