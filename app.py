@@ -2,12 +2,12 @@
 
 import streamlit as st
 import tensorflow as tf
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tf.keras.preprocessing.text import Tokenizer
+from tf.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 # Load the saved model
-model_path = 'path_to_your_model/my_model.h5'  # Update with your actual model path
+model_path = 'my_model.h5'  # Update with your actual model path
 model = tf.keras.models.load_model(model_path)
 
 # Initialize the tokenizer (assuming same parameters as during training)
